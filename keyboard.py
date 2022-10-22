@@ -11,7 +11,7 @@ def send_message(chat_id,text,TOKEN):
 
     keyboard = [[button1,button2]]
 
-    reply_markup = {'keyboard':keyboard}
+    reply_markup = {'keyboard':keyboard,'resize_keyboard':True}
     
     data = {
         'chat_id':chat_id,
